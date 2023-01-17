@@ -1,0 +1,71 @@
+.edu__container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    padding-top: 2rem;
+    gap: 2%;
+    padding-left: 3%;
+}
+
+
+.edu__card {
+    padding: 1rem;
+    display: block;
+    
+}
+
+.edu_img {
+    width: 8rem;
+    padding-bottom: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edu_text {
+    height: 48%;
+    background: var(--color-primary-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    text-justify: inter-word;
+    transition: var(--transition);
+    
+}
+
+.edu_text h4 {
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-weight: 350;
+}
+
+.edu_text:hover {
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: default;
+}
+
+
+
+
+/******************** Mediun Devices *******************/
+@media screen and (max-width: 1024px) {
+    .edu__container {
+        display:inline;
+    }
+
+
+    .cu_img{
+        padding-top: 0rem;
+    }
+    
+    
+    .emu_img {
+        padding-top: 0rem;
+    }
+    
+    .ikiu_img {
+        padding-top: 0rem;
+    }
+}

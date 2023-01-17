@@ -1,0 +1,118 @@
+.proj__container {
+    display: block;
+    padding-top: 0rem;
+    padding: 2rem;
+    gap: 5%;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+
+.proj__card {
+    background-color: var(--color-white);
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    display: block;
+    box-shadow: 10 -5px 23px 0px black, 0 5px 3px -3px;
+}
+
+.proj__card h4 {
+    text-align: left;
+    font-size: 2rem;
+    padding-left: 3rem;
+}
+
+.proj {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    box-shadow: 0px 3px 13px 3px rgb(0 0 0 / 0.2);
+}
+
+.proj:hover {
+    color: var(--color-active);
+}
+
+.proj__img {
+    width: 35rem;
+    padding: 1rem;
+}
+
+.proj__list {
+    display: list-item;
+    padding-right: 1rem;
+}
+
+.proj__list a {
+    color: var(--color-link);
+}
+
+.proj__list a:hover {
+    color: var(--color-text);
+}
+
+.proj__list h5,
+a {
+    padding-left: 2rem;
+    display: list-item;
+    list-style: circle;
+    list-style-position: inside;
+}
+
+/******************** Medium Devices *******************/
+@media screen and (max-width: 1300px) {
+
+    .proj__container {
+        display: block;
+        padding-top: 0rem;
+        padding: 1rem;
+        gap: 5%;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .proj {
+        display: flex;
+        padding-top: 2rem;
+        padding-right: 2rem;
+        box-shadow: 0px 3px 13px 3px rgb(0 0 0 / 0.2);
+    }
+
+    .proj__img {
+        width: 25rem;
+        padding: 1rem;
+    }
+}
+
+/******************** Small Devices *******************/
+@media screen and (max-width: 1024px) {
+
+    .proj__container {
+        display: block;
+        padding-top: 1rem;
+        padding: 0rem;
+        gap: 5%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .proj {
+        display: block;
+        padding-top: 2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        box-shadow: 0px 3px 13px 3px rgb(0 0 0 / 0.2);
+    }
+
+    .proj__img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 15rem;
+        padding: 1rem;
+    }
+
+    .proj__list {
+        display: list-item;
+        padding-left: 0rem;
+    }
+}

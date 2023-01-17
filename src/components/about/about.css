@@ -1,0 +1,41 @@
+.about__container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding-top: 3.5rem;
+    gap: 10%;
+    padding-left: 8%;
+
+}
+
+.card {
+    background: var(--color-primary-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+    transition: var(--transition);
+}
+
+.card:hover {
+    background: transparent;
+    border-color: var(--color-bg-variant);
+    cursor: default;
+}
+
+
+
+
+
+/******************** Mediun Devices *******************/
+@media screen and (max-width: 1024px) {
+    .about__container {
+        display:inline; 
+    }
+
+    .card {
+        margin-top: 3rem;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
